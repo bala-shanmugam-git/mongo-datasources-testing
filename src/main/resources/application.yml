@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: mongoDatasourcesTesting
+datasources:
+  default:
+    driver-class-name: org.h2.Driver
+netty:
+  default:
+    allocator:
+      max-order: 3
